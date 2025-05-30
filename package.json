@@ -1,0 +1,32 @@
+{
+  "name": "sapience-helpers",
+  "version": "0.1.0",
+  "description": "A TypeScript library to listen to smart contract events using viem.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "viem",
+    "blockchain",
+    "events"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "eslint": "^8.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@uniswap/v3-core": "^1.0.1",
+    "viem": "^2.0.0"
+  },
+  "packageManager": "pnpm@9.0.6"
+}
