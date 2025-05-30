@@ -1,14 +1,12 @@
-# sapience-helpers
+# Sapience Helpers
 
 **This is a vibecoded prototype, proof-of-concept, work-in-progress**
 
-A typescript library with useful functions for interacting with [Sapience](https://www.sapience.xyz) markets.
+A Typescript Library with useful functions for interacting with [Sapience](https://www.sapience.xyz) markets.
 
-**Market Observer** - Listen to a market's Uniswap pool via websockets and stream the latest price and orderbook data.
-
-**New Market Alerts** - *Coming soon.* Poll the Sapience API's GraphQL endpoint for new market groups and markets.
-
-**Limit Orders** - *Coming soon.* Collect a signed trade and watch the market for an opportunity to submit it.
+* **Market Observer** - Listen to a market's Uniswap pool via websockets and stream the latest price and orderbook data.
+* **New Market Alerts** - *Coming soon.* Poll the Sapience API's GraphQL endpoint for new market groups and markets.
+* **Limit Orders** - *Coming soon.* Collect a signed trade and watch the market for an opportunity to submit it.
 
 ---
 
